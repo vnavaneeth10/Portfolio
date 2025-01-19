@@ -24,7 +24,7 @@ const Home = () => {
           [
             "Software Engineer",1000,
             "Frontend Engineer",1000,
-            "Business Analyst",1000,
+            
             "Data Analyst",1000,
             "Machine Learning Engineer",1000,
           ]}
