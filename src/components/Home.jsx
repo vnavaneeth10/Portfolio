@@ -2,8 +2,10 @@ import HeroImage from '../assets/main.JPG'
 import { TypeAnimation } from 'react-type-animation'
 import SocialIcons from './SocialIcons'
 import Button from './Button'
+//import Scroll from './Scroll'
 const Home = () => {
   return (
+    <>
 
     <section className='flex flex-col md:flex-row items-center justify-center min-h-screen px-6'>
 
@@ -24,7 +26,6 @@ const Home = () => {
           [
             "Software Engineer",1000,
             "Frontend Engineer",1000,
-            
             "Data Analyst",1000,
             "Machine Learning Engineer",1000,
           ]}
@@ -40,10 +41,14 @@ const Home = () => {
        <SocialIcons/>
        
        <Button text="Hire me" href="#"/>
+
+       
        
       </div>
-
+      
     </section>
+    
+    </>
   )
 }
 
