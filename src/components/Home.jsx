@@ -25,7 +25,7 @@ const Home = () => {
             "Machine Learning Engineer",1000,
           ]}
           speed={50}
-          style={{fontSize: "1rem"}}
+          style={{fontSize: "3rem"}}
           repeat={Infinity}
         />
 
